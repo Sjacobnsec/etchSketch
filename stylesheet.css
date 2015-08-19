@@ -2,10 +2,13 @@
 however keep the styles in here, keep application.js clean */
 
 div {
-	height: 20px;
-	width: 20px;
-	background-color: black;
+  height: 120px;
+  width: 120px;
+  background-color: blue; 
+  //outline: 1px solid; 
+  display: inline-table; 
+  border-radius: 5px;
 }
-.hightlight {
-	background-color: blue;
+.highlight {
+  background-color: red; 
 }
