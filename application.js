@@ -4,4 +4,8 @@ $(document).ready(function() {
 	//should have a trailing effect, clear should be slow...
 
 	//button should reset page and pop dialogue asking for new grid amount
+
+	$('div').on('click', function () {
+    	$('div').addClass("highlight");
+	});
 });
