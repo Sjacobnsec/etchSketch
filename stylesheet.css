@@ -5,9 +5,10 @@ div {
   height: 120px;
   width: 120px;
   background-color: blue; 
-  //outline: 1px solid; 
   display: inline-table; 
-  border-radius: 5px;
+}
+.app {
+	background-color: pink; 
 }
 .highlight {
   background-color: red; 
