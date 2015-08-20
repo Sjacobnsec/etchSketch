@@ -1,5 +1,5 @@
 
-var row = 50;
+var row = 1000;
 var column = 8; 
 
 
@@ -11,7 +11,8 @@ $(document).ready(function() {
   $('.app').mouseenter(function(){
     $(this).addClass('highlight');
   });
-  $('.app').mouseleave(function(){
-    $(this).removeClass('highlight');
+  
+  $('button').on('click', function() {
+    $('.app').removeClass('highlight');
   });
 });
