@@ -10,11 +10,11 @@ $(document).ready(function() {
 	}
  /* $('.app').mouseenter(function(){
     $(this).addClass('highlight');
-  });
+  }); */
   
   $('button').on('click', function() {
     $('.app').removeClass('highlight');
-  }); */
+  });
    $('.app').hover(function() {
     $(this).toggleClass('highlight');
   });
