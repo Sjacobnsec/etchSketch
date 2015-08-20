@@ -8,11 +8,14 @@ $(document).ready(function() {
 		//appends 8 divs to wrapper 
 		$('#wrapper').after($('<div class="app"></div>'));
 	}
-  $('.app').mouseenter(function(){
+ /* $('.app').mouseenter(function(){
     $(this).addClass('highlight');
   });
   
   $('button').on('click', function() {
     $('.app').removeClass('highlight');
+  }); */
+   $('.app').hover(function() {
+    $(this).toggleClass('highlight');
   });
 });
