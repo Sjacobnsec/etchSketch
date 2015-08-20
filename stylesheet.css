@@ -1,15 +1,24 @@
-/* Most of the styling should be done through jQuery and JavaScript
-however keep the styles in here, keep application.js clean */
+#container {
+  background-color: blue;
+  height: 960px;
+  width: 960px;
+  margin-top: 50px;
+  /*overflow: hidden;*/
+  text-align: center;
+}
 
-div {
-  height: 120px;
-  width: 120px;
-  background-color: blue; 
-  display: inline-table; 
-}
 .app {
-	background-color: pink; 
+  height: 100px;
+  width: 100px;
+  margin-top: -5px;
+  display: inline-block;
+  outline: 1px black solid;
 }
+
 .highlight {
-  background-color: red; 
+  background-color: grey;
+}
+
+button {
+
 }
