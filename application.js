@@ -1,21 +1,26 @@
-var row = 5164;
-var column = 8;
-var cont = $("#container")
+function askMe() {
+  var y = prompt('what is the average speed?');
+  console.log(y)
+}
+
+function makeHigh() {
+  $('<div></div>').addClass('.highlight');
+  console.log('voldymort');
+}
+
+function myFunction() {
+  //askMe();
+  makeHigh();   
+};
+
 
 $(document).ready(function() {
-   $('button').on('click', function() {
-    $('.app').removeClass('highlight');
-  });
-  
-  for (var i = 0; i < cont.height(); i++) {
-  
-    $('#wrapper').append($('<div class="app"></div>'));
+  for (i = 0; i < 30; i++) {
+    $('#container').append($('<div class="app"></div>'))
+    $('.app').css({
+      //height: 960 / x,
+      //width: 960 / x
+    });
   }
-  $('.app').hover(function() {
-    $(this).addClass('highlight');
-  });
-});
 
-console.log(cont.height())
-console.log($('.app').length)
-console.log("kek")
+});
