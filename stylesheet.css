@@ -1,26 +1,18 @@
 #container {
-  background-color: blue;
+  background-color: blue; 
   height: 960px;
   width: 960px;
-  margin-top: 50px;
-  overflow: hidden;
-  text-align: center;
-  border-radius: 20px;
 }
 
 .app {
-  /*how do I make the height and width adapatable to the container div?*/
-  min-height: 120px;
-  width: 120px;
-  margin-top: -5px;
+  float: right; 
+  min-height: 50px;
+  min-width: 50px;
+  background-color: pink;
   display: inline-block;
   outline: 1px black solid;
 }
 
 .highlight {
-  background-color: pink;
-}
-
-button {
-
+  background-color: orange; 
 }
